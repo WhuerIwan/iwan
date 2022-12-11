@@ -1,0 +1,20 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+  <view class="comment">
+    <reply class="reply"></reply>
+    <block1 class="block1"
+            block_head='{{block_head}}'
+            time='{{time}}'
+            position='{{position}}'
+            intro='{{intro}}'
+            block_src='{{src}}'
+    ></block1>
+  </view>
+  <inspection class="inspection"
+        block_head='{{block_head}}'
+        time='{{time}}'
+        position='{{position}}'
+        intro='{{intro}}'
+        block_src='{{src}}'
+    ></inspection>
+</view>

@@ -1,0 +1,6 @@
+/* pages/message/message.wxss */
+.comment{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-bottom:5px solid rgb(240, 236, 236);
+}

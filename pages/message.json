@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "inspection":"../../components/j_inspection/inspection",
+    "reply":"../../components/j_reply/reply",
+    "block1":"../../components/block1/block1"
+  }
+}
