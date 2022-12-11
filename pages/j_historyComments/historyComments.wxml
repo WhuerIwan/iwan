@@ -14,7 +14,13 @@
     <text class="number">{{likeNum}}</text>
   </view>
   <view class="comment">{{comment}}</view>
-  <block1 block_src='../../image/poster.jpg'>
+  <block1 
+    block_head='{{block_head}}'
+    time='{{time}}'
+    position='{{position}}'
+    intro='{{intro}}'
+    block_src='{{src}}'
+  >
   </block1>
 </view>
 </view>

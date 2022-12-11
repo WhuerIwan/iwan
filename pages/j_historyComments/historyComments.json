@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "block1":"../../components/j_block1/block1"
+    "block1":"../../components/block1/block1"
   }
 }
