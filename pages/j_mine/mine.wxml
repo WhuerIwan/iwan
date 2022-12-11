@@ -18,7 +18,7 @@
         <image class="right" src="/icon/mine/right.svg" bindtap="myApplication"></image>
     </view>
     <view class="logOut">
-        <text>退出登录</text>
+        <button>退出登录</button>
     </view>
 </view>
 <!--<text>pages/mine/mine.wxml</text>-->
