@@ -1,0 +1,118 @@
+/**index.wxss**/
+.Head{
+    position: absolute;
+    position: fixed;
+    width: 100%;
+}
+.head{
+    display:flex;
+    z-index: 2;
+    background-color: #4A7A6E;
+    width: 100%;
+    height: 80rpx;
+    padding-bottom: 10rpx;
+    padding-top:80rpx;
+    padding-left:150rpx;
+    flex-direction:row;
+    font-weight: 550;
+    /* height: 300rpx; */
+}
+.head1{
+    color:#BBBBBB;
+    border-bottom: 5rpx solid #BBBBBB;
+}
+.head_1{
+    color:black;
+    border-bottom: 5rpx solid black;
+}
+.head2{
+    color:#BBBBBB;
+    border-bottom: 5rpx solid #BBBBBB;
+    position: relative;
+    left: 80rpx;
+}
+.head_2{
+    color:black;
+    border-bottom: 5rpx solid black;
+    position: relative;
+    left: 80rpx;
+}
+.small{
+    font-size: 20rpx;
+}
+.body{
+  padding-top: 165rpx;
+  width: 100%;
+}
+.container{
+  padding-top: 10rpx;
+  width: 100%;
+}
+.tail{
+    
+    position: fixed;
+    top:1100rpx;
+    left: 620rpx;
+}
+.tail image{
+    position: fixed;
+    height: 100rpx;
+    width: 100rpx;
+}
+.modal-box{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 200;
+    top:22%;
+    left:1%;
+    background-color: #ffffff;
+    margin:0 5% 0 1%;
+    overflow: hidden;
+    border:3rpx solid rgb(114, 116, 114);
+    border-radius: 50rpx;
+    height: 750rpx;
+    width: 95%;
+}
+
+.xtitle{
+    text-align: center;
+    font-size: 70rpx;
+    padding: 0;
+}
+.xtitle image{
+    position: absolute;
+    left: 620rpx;
+    top:0;
+    height: 85rpx;
+    width: 85rpx;
+}
+#describe{
+  display: block;
+  height: 200rpx;
+  width: 600rpx;
+  margin: 25rpx;
+  font-weight: 440;
+  font: size 100;
+  color:black;
+}
+.addpicture{
+  position: relative;
+  left: 25rpx;
+  height: 250rpx;
+  width: 250rpx;
+}
+
+.send{
+  position: relative;
+  left: 250rpx;
+  height: 75rpx;
+  width: 135rpx !important;
+  padding: 10rpx;
+  padding-left: 10rpx;
+  border-radius: 35rpx;
+  background-color:#4A7A6E;
+  color: azure;
+}

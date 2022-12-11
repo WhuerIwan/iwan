@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="air" style='filter:{{blur}}'>
+<blocks block_src="../../image/poster.jpg"
+    block_head="中秋灯谜会"
+    time="2022.11.12"
+    position="武汉大学桂园操场"
+    intro="lalalalalalal...."
+    color="#FA5151"
+    status="未通过"
+    content="对不起，这里好像有什么问题"
+    bind:comclick="blurs">
+</blocks>
+
+    <blocks block_src="../../image/poster.jpg"
+    block_head="中秋灯谜会"
+    time="2022.11.10"
+    position="武汉大学梅园操场"
+    intro="alalaalalalalall...."
+    color="#07C160"
+    status="已通过"
+    content="策划案超级超级棒！！！！">
+</blocks>
+
+    <blocks block_src="../../image/poster.jpg"
+    block_head="中秋灯谜会"
+    time="2022.11.9"
+    position="武汉大学912操场"
+    intro="为了迎接中秋节的到来，我们将在912操场举行中秋节灯谜晚会..."
+    color="#ACACAC"
+    status="未审核"
+    content="审核员小姐姐还在审核哟~">
+</blocks>
+</view>

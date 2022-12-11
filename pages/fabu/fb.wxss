@@ -1,0 +1,96 @@
+/* pages/fabu/fb.wxss */
+image{
+    width: 60rpx;
+    height: 60rpx;
+}
+title{
+    display: inline;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: 80rpx;
+}
+.container{
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 0;
+  box-sizing: border-box;
+}
+.views{
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    padding-left: 50rpx;
+    border-bottom:1rpx solid #BBBBBB;
+    width: 100%;
+}
+input{
+    display: inline-table;
+    position: relative;
+    width: 500rpx;
+    margin: 0 32rpx;
+    height: 68rpx;
+    background: #e4e4e4;
+    border-radius: 30rpx;
+    border:3rpx solid rgb(114, 116, 114);
+    font-size: 40rpx;
+    color: rgb(114, 116, 114);
+    font-weight: 520;
+    padding-left: 80rpx;
+    box-sizing: border-box;
+}
+#year{
+      width: 120rpx;
+      padding-left: 10rpx;
+}
+#month{
+    width: 80rpx;
+    padding-left: 30rpx;
+}
+#day{
+    width: 80rpx;
+    padding-left: 30rpx;
+}
+#describe{
+    display: block;
+    height: 200rpx;
+    width: 600rpx;
+    margin: 0;
+    font-weight: 540;
+    font: size 200;
+    color:#707070;
+}
+.sc{
+    display: block;
+    padding-left: 200rpx;
+    height: 150rpx;
+    width: 150rpx;
+}
+button{
+    position: relative;
+    left: 250rpx;
+    height: 70rpx;
+    width: 120rpx !important;
+    padding: 10rpx !important;
+    padding-left: 10rpx !important;
+    background-color:#4A7A6E;
+    color: azure;
+}
+.modal-box{
+    position: fixed;
+    z-index: 2;
+    top:30%;
+    left:1%;
+    background-color: #ffffff;
+    margin:0 5% 0 1%;
+    overflow: hidden;
+    border:3rpx solid rgb(114, 116, 114);
+    border-radius: 50rpx;
+    height: 300rpx;
+    width: 95%;
+}
+page{
+    height: 135%;
+}

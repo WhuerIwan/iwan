@@ -1,0 +1,35 @@
+<!--pages/shenhe/shenhe.wxml-->
+<view class="container" style='filter:{{blur}}'>
+  <view class="title"><text>审核活动</text></view>
+  <view class="con">
+    <view class="son">名称：{{name}}</view>
+    <view class="son">地点：{{place}}</view>
+    <view class="son">时间：{{year}}年{{month}}月{{day}}日</view>
+  </view>
+  <view class="con">
+    <view class="son">活动介绍：{{content}}</view>
+  </view>
+  <view class="con">
+    <text class="son">海报：</text>
+    <image src="../../image/main/class 50.svg" bindtap="read1"/>
+  </view>
+  <view class="con">
+    <text class="son">策划案：</text>
+    <image src="../.." bindtap="read2"/>
+  </view>
+  <view class="con">
+    <text class="son">紧急预案：</text>
+    <image src="../../image/main/class 50.svg" bindtap="read3"/>
+  </view>
+  <button bindtap="show">审核</button>
+</view>
+<view class="modal-box" hidden="{{flag}}">
+    <view style='padding: 50rpx 15rpx'>
+      <view class="title"><text>审核意见</text></view>
+      <textarea id="describe" placeholder="~同意发布此项选填，拒绝发布此项必填~" bindblur="bindTextAreaBlur" value="{{details}}">
+        </textarea>
+    </view>
+    <button bindtap="refuse" style="margin-top: -25rpx; left:-150rpx; background-color: #FA5151;">拒绝</button>
+    <button bindtap="accept" style='margin-top: -70rpx; left:150rpx'>同意</button>
+</view>
+

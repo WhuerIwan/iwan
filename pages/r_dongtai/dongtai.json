@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+      "comments":"../../pages/r_comment/comment"
+    }
+}

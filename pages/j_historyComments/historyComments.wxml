@@ -1,0 +1,20 @@
+<!--pages/historyComments/historyComments.wxml-->
+<!--<text>pages/historyComments/historyComments.wxml</text>-->
+<view class="container">
+<view class="whole">
+  <view class="users">
+    <view class="user">  
+      <image class="profilePhoto" src="/icon/mine/profilePicture.svg"></image>
+      <view>
+        <view class="textBox">匿名用户</view>
+        <view class="textBox">{{date}}</view>
+      </view>
+    </view>
+    <image class="like" src="/icon/historyComments/like.svg"></image>
+    <text class="number">{{likeNum}}</text>
+  </view>
+  <view class="comment">{{comment}}</view>
+  <block1 block_src='../../image/poster.jpg'>
+  </block1>
+</view>
+</view>

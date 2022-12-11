@@ -1,0 +1,6 @@
+<!--pages/comment.wxml-->
+<view class="comments">
+  <view style="font-size: 50rpx"><image src="../../image/head.svg" class="headph"></image>{{customer}}</view>
+  <view style="font-size: small">{{time}}</view>
+  <view style="font-size: large">{{content}}</view>
+</view>

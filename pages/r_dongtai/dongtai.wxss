@@ -1,0 +1,60 @@
+/* pages/动态.wxss */
+.dongtaic{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 500rpx;
+  width: 95%;
+  border-radius: 50rpx;
+  border:2rpx solid #BBBBBB;
+  padding: 20rpx;
+}
+.headph{
+  height: 60rpx;
+  width: 60rpx;
+}
+.pictures{
+  height: 200rpx;
+  width: 200rpx;
+}
+.sign{
+  position: relative;
+  left: 520rpx;
+  bottom: -20rpx;
+}
+.signph{
+  height: 50rpx;
+  width: 50rpx;
+}
+.comment-block{
+  z-index: 20;
+  padding: 20rpx;
+  border:2rpx solid #BBBBBB;
+  border-radius: 30rpx;
+  height: 700rpx;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.close{
+  position: absolute;
+  right: 50rpx;
+  height: 80rpx;
+  width: 80rpx;
+}
+.my-comment{
+    width: 670rpx;
+    margin: 0 22rpx;
+    height: 100rpx;
+    background: #ebebeb;
+    border-radius: 20rpx;
+    border:2rpx solid rgb(114, 116, 114);
+    font-size: 40rpx;
+    color: #000000;
+    font-weight: 520;
+    padding-left: 50rpx;
+    padding-right: 50rpx;
+    box-sizing: border-box;
+}

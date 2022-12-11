@@ -1,0 +1,10 @@
+/* pages/comment.wxss */
+.comments{
+  padding:10rpx;
+  border-bottom: 2rpx solid #bbbbbb;
+  width: 100%;
+}
+.headph{
+  height: 60rpx;
+  width: 60rpx;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+      "block1":"/components/block1/block1",
+      "buttons":"/components/buttons/button"
+  },
+  "navigationStyle": "custom"
+
+}

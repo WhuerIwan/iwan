@@ -1,0 +1,42 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<view>
+<block3 
+class="block3"
+block_head="hhh"
+block_src="../../image/poster.jpg"></block3>
+<view class="official">
+<image class="official_src" src="{{o_src}}"></image>
+<view class="official_name">{{o_name}}</view>
+<view class="official_text"><view>活动简介：</view>{{o_text}}</view>
+</view>
+<view class="scorebox">
+<text class="pjyx">活动如何？评价一下吧~</text>
+<view class="stars">
+    <text class="pf">评分：</text>
+    <image class="block_star" src="{{star1}}" bindtap="scores" data-starscore="1"></image>
+    <image class="block_star" src="{{star2}}" bindtap="scores" data-starscore="2"></image>
+    <image class="block_star" src="{{star3}}" bindtap="scores" data-starscore="3"></image>
+    <image class="block_star" src="{{star4}}" bindtap="scores" data-starscore="4"></image>
+    <image class="block_star" src="{{star5}}" bindtap="scores" data-starscore="5"></image>
+    <text class="block_starnum">{{starnum}}</text>
+</view>
+</view>
+<view class="pjblock">
+
+</view>
+<view class="foot">
+<input class="inputbox" bindinput="inputcomment" placeholder=" 发一条友善的评论吧~" placeholder-style="color:#ABABAB;font-size:13px"/>
+<view class="hp">
+<image class="f_hp" src="{{hp}}" bindtap="hp"></image>
+<view class="hp_text">{{hpt}}</view>
+</view>
+<view class="fx">
+<image class="f_fx" src="../../image/xq/share.svg"></image>
+<view class="fx_text">分享</view>
+</view>
+<view class="gz">
+<image class="f_gz" src="{{gz}}" bindtap="gz"></image>
+<view class="gz_text">{{gzt}}</view>
+</view>
+</view>
+</view>

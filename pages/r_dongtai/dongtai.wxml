@@ -1,0 +1,36 @@
+<!--pages/动态.wxml-->
+<view class="dongtaic">
+    <view style="font-size: 50rpx"><image src="../../image/head.svg" class="headph"></image>{{customer}}</view>
+    <view style="font-size: small">{{time}}</view>
+    <view style="font-size: large">{{content}}</view>
+    <view>
+      <image class="pictures" src="../../image/sky.jpg"></image>
+      <image class="pictures" src="../../image/user_picture.jpg"></image>
+      <image class="pictures" src="../../image/tree.png"></image>
+    </view>
+    <view class="sign">
+      <image wx:if="{{flag}}" src="../../image/click.svg" class="signph" bindtap="click"></image>
+      <image wx:else="{{!flag}}" src="../../image/clicked.svg" class="signph" bindtap="click"></image><text>{{lights}} </text>
+      <image src="../../image/comments.svg" class="signph" bindtap="comment"></image><text>{{comments}}</text>
+    </view>
+</view>
+<view class="comment-block" hidden="{{isHidden}}">
+  <text>评论详情</text>
+  <image src="../../image/xx.svg" bindtap="close" class="close"></image>
+  <comments 
+   customer="早上的饭"
+    time="四分钟前"
+    content="噜啦噜啦嘞绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿">
+    </comments>
+    <comments 
+   customer="中午的饭"
+    time="四分钟前"
+    content="噜啦噜啦嘞绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿">
+    </comments>
+    <comments 
+   customer="下午的饭"
+    time="四分钟前"
+    content="噜啦噜啦嘞绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿">
+    </comments>
+    <input class="my-comment" type="text" bindinput="mycomment" placeholder="发一条友善的评论吧~"/>
+</view>

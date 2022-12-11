@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "block3":"../../components/block3/block3"
+    }
+}

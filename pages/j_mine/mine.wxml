@@ -1,0 +1,24 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+    <view class="user">
+        <image class="profilePhoto" src="/icon/mine/profilePicture.svg"></image>
+        <text>用户名</text>
+        <!--<text bindtap="login">点击登录</text>-->
+    </view>
+    <view id="box" class="myFollow">
+        <text>我的关注</text>
+        <image class="right" src="/icon/mine/right.svg" bindtap="myFollow"></image>
+    </view>
+    <view id="box" class="historyComments">
+        <text>历史评价</text>
+        <image class="right" src="/icon/mine/right.svg" bindtap="historyComments"></image>
+    </view>
+    <view id="box" class="myApplication">
+        <text>我的申请</text>
+        <image class="right" src="/icon/mine/right.svg" bindtap="myApplication"></image>
+    </view>
+    <view class="logOut">
+        <text>退出登录</text>
+    </view>
+</view>
+<!--<text>pages/mine/mine.wxml</text>-->

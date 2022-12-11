@@ -1,0 +1,50 @@
+/* pages/historyComments/historyComments.wxss */
+.whole{
+  border-radius: 13px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.profilePhoto{
+  width: 3em;
+  height: 3em;
+}
+
+.like{
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  left:40px;
+}
+/* .number{
+  position: relative;
+  left:0;
+} */
+
+.users{
+  width: 390px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.textBox{
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+.comment{
+  height: 50px;
+  width: 336px;
+  margin: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

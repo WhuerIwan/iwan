@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/fabu/fb",
+        "pages/shenhe/shenhe",
+        "pages/r_shenhejilu/index",
+        "pages/myguanzhu/myguanzhu",
+        "pages/xiangqing/xiangqing",
+        "pages/j_administrator/administrator",
+        "pages/j_historyComments/historyComments",
+        "pages/j_mine/mine",
+        "pages/r_dongtai/dongtai",
+        "pages/r_index/index",
+        "pages/j_message/message"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#4A7A6E"
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "selectedColor": "#4A7A6E",
+        "backgroundColor": "#ffffff",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "image/main/首页-首页.png",
+                "selectedIconPath": "image/main/首页_fill.png"
+            },
+            {
+                "pagePath": "pages/r_index/index",
+                "text": "动态",
+                "iconPath": "image/main/动态感知.png",
+                "selectedIconPath": "image/main/Tab_动态（选中）.png"
+            },
+            {
+                "pagePath": "pages/fabu/fb",
+                "iconPath": "image/main/加号.png",
+                "selectedIconPath": "image/main/加号.png"
+            },
+            {
+                "pagePath": "pages/j_message/message",
+                "text": "消息",
+                "iconPath": "image/main/消息.png",
+                "selectedIconPath": "image/main/消息3.png"
+            },
+            {
+                "pagePath": "pages/j_mine/mine",
+                "text": "我的",
+                "iconPath": "image/main/我的.png",
+                "selectedIconPath": "image/main/我的2.png"
+            }
+        ]
+    }
+}

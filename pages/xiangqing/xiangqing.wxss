@@ -1,0 +1,144 @@
+/* pages/xiangqing/xiangqing.wxss */
+page{
+    background-color: #F1F2F4;
+}
+.block3{
+    position: absolute;
+    border-radius: 6px;
+    top: 5px;
+}
+.official{
+    position: absolute;
+    width: 390px;
+    height: 158px;
+    top: 209px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.official_src{
+    position: absolute;
+    width: 39.93px;
+    height: 39.93px;
+    top: 10px;
+    left: 21px;
+}
+.official_name{
+    position: absolute;
+    height: 22px;
+    top: 19px;
+    left: 77px;
+    font-weight: bold;
+}
+.official_text{
+    width: 352px;
+    height: 88px;
+    background-color: white;
+    position: absolute;
+    left: 19px;
+    top: 64px;
+    font-weight: bold;
+}
+.pf{
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+.block_star{
+    position: relative;
+    float: left;
+    width: 18px;
+    height: 17.15px;
+    margin: 4px;
+    margin-top: 2px;
+}
+.block_starnum{
+    color: #EA9518;
+    position: relative;
+    float: left;
+    margin-left: 4px;
+    width: 10px;
+    height: 18px;
+}
+.scorebox{
+    position: absolute;
+    top: 372px;
+    left: 0;
+    width: 390px;
+    height: 96px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.pjyx{
+    position: absolute;
+    font-weight: bold;
+    left: 19px;
+    top: 10px;
+}
+.stars{
+    position: absolute;
+    left: 21px;
+    top: 44px;
+    font-weight: bold;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 390px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.inputbox{
+    position: absolute;
+    width: 181px;
+    height: 32px;
+    left: 7px;
+    bottom: 10px;
+    background-color: #F1F2F4;
+    border-radius: 8px;
+}
+.hp{
+    position: absolute;
+    top: 10px;
+    left: 214px;
+    width: 31px;
+    height: 43px;
+}
+.fx{
+    position: absolute;
+    top: 10px;
+    left: 279px;
+    width: 31px;
+    height: 43px;
+}
+.gz{
+    position: absolute;
+    top: 10px;
+    left: 341px;
+    width: 31px;
+    height: 43px;
+}
+.f_hp,.f_fx,.f_gz{
+    width: 22.98px;
+    height: 23px;
+    left: 4px;
+    top: 4px;
+}
+
+.hp_text,.fx_text{
+    position: absolute;
+    text-align: center;
+    height: 18px;
+    font-size: 10px;
+    color: #707070;
+    top: 24px;
+}
+.gz_text{
+    position: absolute;
+    text-align: center;
+    height: 18px;
+    font-size: 10px;
+    color: #707070;
+    top: 24px;
+    left: 1px;
+}

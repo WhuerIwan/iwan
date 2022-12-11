@@ -1,0 +1,101 @@
+<!--index.wxml-->
+<view class="head">
+<view class="lower_head">
+ <image class="choose" src="../../image/main/chooseone.svg" bindtap="to_shaixuan"></image>
+ <view class="seachblock">
+ <image class="search_icon" src="../../image/main/path1.svg"></image>
+ <input type="text" bindinput="search_input" bindfocus="search_focus" bindblur="search_blur" class="input"/>
+ <text class="placeholder" wx:if="{{ifplaceholder}}">搜索</text>
+ </view>
+ </view>
+</view>
+<view class="{{iffilter==1?'container1':'container'}}">
+ <view class="swiper">
+ <swiper class="sw" autoplay="true" circular="true" indicator-dots="true" indicator-active-color="#FFFFFF" indicator-color="rgba(245,245,245,0.34)">  
+ <swiper-item>
+ <image class="swiper_image" src="../../image/user_picture.jpg" ></image>
+ </swiper-item>
+ <swiper-item>
+ <image class="swiper_image" src="../../image/sky.jpg"></image>
+ </swiper-item>
+ <swiper-item>
+ <image class="swiper_image" src="../../image/forest.jpg"></image>
+ </swiper-item>
+ <swiper-item>
+ <image class="swiper_image" src="../../image/galaxy.png"></image>
+ </swiper-item>
+ <swiper-item>
+ <image class="swiper_image" src="../../image/tree.png"></image>
+ </swiper-item>
+ </swiper>
+ </view>
+ <block1 bindtap="gotoxiangqing"
+        block_head='{{block_head}}'
+        time='{{time}}'
+        position='{{position}}'
+        starnum='{{starnum}}'
+        intro='{{intro}}'
+        block_src='../../image/poster.jpg'
+  ></block1>
+  <block1 
+        block_head='{{block_head}}'
+        time='{{time}}'
+        position='{{position}}'
+        starnum='{{starnum}}'
+        intro='{{intro}}'
+        block_src='../../image/poster.jpg'
+  ></block1>
+</view>
+<view class="choose_window" wx:if="{{ifchoose}}">
+    <view class="c_head">
+    <text class="c_headt">筛选</text>
+    <image class="c_x" src="../../image/hdtx/fail.svg" bindtap="backtosy"></image>
+    </view>
+    <view class="c_body">
+    <text class="cb_time">时间:</text>
+    <view class="tpic">
+    <picker mode="date" value="{{date}}" start="{{stdate}}" end="{{eddate}}" bindchange="bindDateChange1">
+        <view class="picker">
+        {{date1}}
+        </view>
+    </picker>
+    <picker mode="date" value="{{date}}" start="{{stdate}}" end="{{eddate}}" bindchange="bindDateChange2">
+    
+        <view class="picker">
+         {{date2}}
+        </view>
+    </picker></view>
+    <view class="cong">从</view>
+    <view class="dao">至</view>
+    </view>
+    <text class="cb_posi">地点:</text>
+    <view class="bt_qb">全部</view>
+ <view class="btlist">
+    <buttons position="桂园操场"></buttons>
+    <buttons position="梅园操场"></buttons>
+    <buttons position="912操场"></buttons>
+    <buttons position="工学部操场"></buttons>
+    <buttons position="信部操场"></buttons>
+    <buttons position="医学部操场"></buttons>
+    <buttons position="工学部草坪"></buttons>
+    <buttons position="其他"></buttons>
+ </view>
+ <view class="bt_yy" bindtap="backtosy">应用</view><!--暂时是backtosy-->
+</view>
+
+<view class="note" wx:if="{{ifnote}}">
+<text class="n_headt">活动结束提醒</text>
+<image class="n_cha" src="../../image/hdtx/fail.svg" bindtap="backtosy"></image>
+<text class="n_text">同学你好，你参加的{{activity_name}}活动已经结束了，快来写下你的评价吧~</text>
+<view class="n_score">
+    <text class="pf">我的评分：</text>
+    <image class="block_star" src="{{star1}}" bindtap="scores" data-starscore="1"></image>
+    <image class="block_star" src="{{star2}}" bindtap="scores" data-starscore="2"></image>
+    <image class="block_star" src="{{star3}}" bindtap="scores" data-starscore="3"></image>
+    <image class="block_star" src="{{star4}}" bindtap="scores" data-starscore="4"></image>
+    <image class="block_star" src="{{star5}}" bindtap="scores" data-starscore="5"></image>
+</view>
+<text class="n_wdpl">我的评论：</text>
+<input class="n_input" placeholder=" 评论自动分享至评论区，你也可以选择只评分不评论哟~" placeholder-style="color:#707070;font-size:10px;font-weight:bold" bindinput="n_input"/>
+<view class="n_send" bindtap="backtosy">提交</view><!--暂时是backtosy-->
+</view>

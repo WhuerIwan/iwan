@@ -1,0 +1,74 @@
+/* pages/shenhe/shenhe.wxss */
+.title{
+    font-size:larger;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rpx;
+    margin-bottom: 0;
+    width: 100%;
+    border-bottom:1rpx solid #BBBBBB;
+  }
+  .container{
+      padding-top: 0rpx;
+      right:0;
+      width: auto;
+      
+  }
+  .con{
+      padding-top: 5rpx;
+      padding-bottom: 40rpx;
+      padding-right: 30rpx;
+      margin-left: 10rpx;
+      border-bottom:1rpx solid #BBBBBB;
+      width:100%;
+  }
+  .son{
+    position: relative;
+    left: 50rpx;
+    width: 93%;
+    margin-right: 10rpx;
+  }
+  image{
+    display: block;
+    position: relative;
+    left: 300rpx;
+    width: 120rpx;
+    height: 120rpx;
+  }
+  button{
+    position: relative;
+    left: 250rpx;
+    height: 70rpx;
+    width: 120rpx !important;
+    padding: 10rpx !important;
+    padding-left: 10rpx !important;
+    background-color:#07C160 ;
+    color: azure;
+  }
+  .modal-box{
+    position: fixed;
+    top:30%;
+    left:1%;
+    background-color: #ffffff;
+    margin:0 5% 0 1%;
+    overflow: hidden;
+    border:3rpx solid rgb(114, 116, 114);
+    border-radius: 50rpx;
+    height: 500rpx;
+    width: 95%;
+  }
+  #describe{
+    display: block;
+    height: 280rpx;
+    width: 680rpx;
+    margin: 0;
+    font-weight: 500;
+    font-size: small !important;
+    color:#707070;
+    border: #BBBBBB;
+    border-radius: 30rpx;
+    background-color: #dfdfdf;
+  }
+  page{
+    height: 135%;
+  }

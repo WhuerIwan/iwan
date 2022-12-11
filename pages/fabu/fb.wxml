@@ -1,0 +1,50 @@
+<!--pages/fabu/fb.wxml-->
+<view style='filter:{{blur}}'>
+<head id="title">
+    <title>活动发布</title>
+</head>
+<view class="container" >
+    <view class="views">
+        <text>名称:</text>
+        <input class="mck" type="text" maxlength="15" bindinput="mc"/>
+    </view>
+    <view class="views">
+        <text wx:if="{{index==8}}">地点：</text>
+        <input wx:if="{{index==8}}"class="mck" type="text" maxlength="15" bindinput="dd"/>
+        <picker  wx:if="{{index!=8}}"  bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+            <view>地点：{{array[index]}}</view>
+        </picker>
+    </view>
+    <view class="views">
+        <text>时间：</text>
+        <input id="year" type="number"/>
+        <text>年</text>
+        <input id="month" type="number"/>
+        <text>月</text>
+        <input id="day" type="number"/>
+        <text>日</text>
+    </view>
+    <view class="views">
+        <text>活动介绍：</text>
+        <textarea id="describe" placeholder="希望你能简单介绍一下你们的活动~" bindblur="bindTextAreaBlur" value="{{details}}">
+        </textarea>
+    </view>
+    <view class="views">
+        <text>上传海报：</text>
+        <image class="sc" src="../../image/main/upload1.svg" bindtap="upLoadAction"/>
+    </view>
+    <view class="views">
+        <text>上传策划案：</text>
+        <image class="sc" src="../../image/main/upload1.svg" bindtap="upLoadAction"/>
+    </view>
+    <view class="views">
+        <text>上传紧急预案：</text>
+        <image class="sc" src="../../image/main/upload1.svg" bindtap="upLoadAction"/>
+    </view>
+    <button bindtap="show">提交</button>
+</view>
+</view>
+<view class="modal-box" hidden="{{flag}}">
+    <view style='padding: 60rpx 20rpx'>你已经成功提交，我们会马上为你审核</view>
+    <button class="kmowBtn" bindtap="hide" style='margin-top: 50rpx'>确定</button>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/myguanzhu/myguanzhu.wxml-->
+<view class="container">
+<blockygz 
+        block_head='1'
+        time='1'
+        position='1'
+        starnum='1'
+        intro='1'></blockygz>
+</view>

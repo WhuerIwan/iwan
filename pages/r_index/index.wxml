@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="whole">  
+<!-- style='filter:{{blur}}' -->
+    <view class="Head">
+        <view class="head">
+            <view class="{{head1}}" bindtap="head1">
+                <text class="small">大家的</text>
+                <text class="big">动态</text>
+            </view>
+            <view class="{{head2}}" bindtap="head2">
+                <text class="big">朋友</text>
+                <text class="small">们的</text>
+            </view>
+        </view>
+    </view>
+    <view class="body">
+        <view class="container">
+            <dong-tai customer="hfff"
+            time="四分钟前"
+            content="哈哈哈哈呵呵哈哈哈红红火火恍恍惚惚或或或或或或或或或或或或">
+            </dong-tai>
+        </view>
+        <view class="container">
+            <dong-tai customer="中午的饭"
+            time="四分钟前"
+            content="噜啦噜啦嘞绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿绿">
+            </dong-tai>
+        </view>
+        <view class="container">
+            <dong-tai customer="收购价仙鹤股份"
+            time="四分钟前"
+            content="哈哈哈哈呵呵哈哈哈红红火火恍恍惚惚或或或或或或或或或或或或">
+            </dong-tai>
+        </view>
+    </view>
+    <view class="tail">
+        <image src="../../image/send.svg" bindtap="show"></image>
+    </view>
+</view>
+<!-- <image style="height:80rpx;width:80rpx; left:200rpx" bindtap="hide" scr="../pictures/×.svg/"></image> -->
+<view class="modal-box" hidden="{{flag3}}">
+    <view class="xtitle">
+        <text>动态发布</text>
+        <image bindtap="hide" src="../../image/xx.svg"></image>
+    </view>
+    <textarea id="describe" placeholder="写下此刻的心情吧~" bindblur="bindTextAreaBlur" value="{{details}}">
+    </textarea>
+    <image class="addpicture" bindtap="addPicture" src="../../image/add_picture.png"></image>
+    <button class="send" bindtap="send" style='margin-top: 50rpx'>发布</button>
+</view>
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "dong-tai":"../r_dongtai/dongtai",
+      "comments":"../r_comment/comment"
+  },
+  "navigationStyle": "custom"
+}
