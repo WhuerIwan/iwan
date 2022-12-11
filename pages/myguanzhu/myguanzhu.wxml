@@ -1,9 +1,11 @@
 <!--pages/myguanzhu/myguanzhu.wxml-->
 <view class="container">
 <blockygz 
-        block_head='1'
-        time='1'
-        position='1'
-        starnum='1'
-        intro='1'></blockygz>
+        block_head='{{block_head}}'
+        time='{{time}}'
+        position='{{position}}'
+        starnum='{{starnum}}'
+        intro='{{intro}}'
+        block_src='{{src}}'
+></blockygz>
 </view>

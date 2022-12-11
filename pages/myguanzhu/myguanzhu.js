@@ -5,7 +5,11 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        block_head:'中秋灯谜会',
+        time:'20220201',
+        position:'梅操',
+        intro:'啦啦啦',
+        src:'../../image/poster.jpg'
     },
 
     /**
