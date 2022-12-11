@@ -11,6 +11,7 @@ Page({
         time:'1',
         position:'1',
         starnum:0,
+        src:'../../image/poster.jpg',
         intro:'1',
         iffilter:0,
         ifchoose:0,

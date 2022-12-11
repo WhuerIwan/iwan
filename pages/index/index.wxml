@@ -13,7 +13,7 @@
  <view class="swiper">
  <swiper class="sw" autoplay="true" circular="true" indicator-dots="true" indicator-active-color="#FFFFFF" indicator-color="rgba(245,245,245,0.34)">  
  <swiper-item>
- <image class="swiper_image" src="../../image/user_picture.jpg" ></image>
+ <image class="swiper_image" src="../../image/fox.jpg" ></image>
  </swiper-item>
  <swiper-item>
  <image class="swiper_image" src="../../image/sky.jpg"></image>
@@ -43,7 +43,7 @@
         position='{{position}}'
         starnum='{{starnum}}'
         intro='{{intro}}'
-        block_src='../../image/poster.jpg'
+        block_src='{{src}}'
   ></block1>
 </view>
 <view class="choose_window" wx:if="{{ifchoose}}">
