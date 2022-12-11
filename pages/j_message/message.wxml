@@ -1,8 +1,0 @@
-<!--pages/message/message.wxml-->
-<view class="container">
-  <reply class="reply"></reply>
-  <block1 class="block1"
-  block_src='../../image/poster.jpg'
-  ></block1>
-  <inspection class="inspection"></inspection>
-</view>
